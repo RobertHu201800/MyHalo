@@ -105,4 +105,6 @@ public class AdminController {
     public BaseResponse<String> getSpringLogs() {
         return BaseResponse.ok(HttpStatus.OK.getReasonPhrase(), adminService.getSpringLogs());
     }
+
 }
+//this is change test
